@@ -23,6 +23,7 @@ public class ObjectDependencyInjection {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         Triangle triangle=(Triangle)context.getBean("td");
         triangle.draw();
+        System.out.println("change");
     }
     
 }
