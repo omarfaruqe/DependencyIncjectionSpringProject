@@ -42,9 +42,14 @@ public class Triangle{ // implements ApplicationContextAware, BeanNameAware {
 //            System.out.println("X:"+point.getX()+" Y:"+point.getY());
 //            //System.out.println("Bean Context: "+getApplicationContext());
 //        }
-        System.out.println("X:"+getPointA().getX()+" Y:"+getPointA().getY());
-        System.out.println("X:"+getPointB().getX()+" Y:"+getPointB().getY());
-        System.out.println("X:"+getPointC().getX()+" Y:"+getPointC().getY());
+        System.out.println("Point A :");
+        System.out.println("    X : " + getPointA().getX() + "   Y : " + getPointA().getY());
+        
+        System.out.println("Point B :");
+        System.out.println("    X : " + getPointB().getX() + "   Y : " + getPointB().getY());
+        
+        System.out.println("Point C :");
+        System.out.println("    X : " + getPointC().getX() + "   Y : " + getPointC().getY());
     }
 
     public Point getPointA() {
